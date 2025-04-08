@@ -1,61 +1,61 @@
 [
     {
       "id": 1,
-      "nombre": "Cascada de Huapoca",
+      "nombre": "Presa Peñitas",
       "categoria": "natural",
-      "descripcion": "Impresionante caída de agua rodeada de bosques de pino, ideal para los amantes de la naturaleza.",
-      "imagen": "img/atractivos/cascada_huapoca.jpg",
+      "descripcion": "",
+      "imagen": "/practica/img/atractivos/presa_peñitas.jpg",
       "ubicacion": {
-        "lat": 29.2096,
-        "lng": -108.1369
+        "lat": 29.27189,
+        "lng": -108.11775
       },
       "detalles": "La cascada de Huapoca se encuentra a aproximadamente 20 km del centro de Madera. Es un lugar perfecto para disfrutar del contacto con la naturaleza, tomar fotografías y respirar aire puro. Durante la época de lluvias, la cascada muestra todo su esplendor."
     },
     {
       "id": 2,
-      "nombre": "Cuevas de Huapoca",
-      "categoria": "historico",
-      "descripcion": "Sitio arqueológico con cuevas habitadas por antiguas culturas prehispánicas con pinturas rupestres.",
-      "imagen": "img/atractivos/cuevas_huapoca.jpg",
+      "nombre": "Cabañas la bolsa",
+      "categoria": "natural",
+      "descripcion": "",
+      "imagen": "/practica/img/atractivos/cabañas_la_bolsa.jpg",
       "ubicacion": {
-        "lat": 29.2122,
-        "lng": -108.1321
+        "lat": 29.24172,
+        "lng": -108.13013
       },
       "detalles": "Las Cuevas de Huapoca son uno de los sitios arqueológicos más importantes de la región. Aquí se pueden observar fascinantes pinturas rupestres realizadas por antiguos habitantes de la zona. Se recomienda visitar con un guía local para apreciar mejor su valor histórico."
     },
     {
       "id": 3,
-      "nombre": "Presa La Angostura",
+      "nombre": "Lago de los Cisnes",
       "categoria": "natural",
-      "descripcion": "Hermoso embalse rodeado de paisajes boscosos, perfecto para actividades acuáticas y pesca.",
-      "imagen": "img/atractivos/presa_angostura.jpg",
+      "descripcion": "",
+      "imagen": "/practica/img/atractivos/lago_de_los_cisnes.jpg",
       "ubicacion": {
-        "lat": 29.1897,
-        "lng": -108.1462
+        "lat": 29.21021,
+        "lng": -108.13879
       },
       "detalles": "La Presa La Angostura es uno de los principales recursos hídricos de la región. Sus aguas cristalinas son ideales para la pesca deportiva de trucha y lobina. También se puede disfrutar de paseos en bote y camping en sus orillas, rodeados de espectaculares vistas de los bosques de pino-encino."
     },
     {
       "id": 4,
-      "nombre": "Templo de San Juan Bautista",
+      "nombre": "Catedral de San Pedro",
       "categoria": "cultural",
-      "descripcion": "Iglesia histórica que data del siglo XIX, con una arquitectura única y gran valor cultural.",
-      "imagen": "img/atractivos/templo_san_juan.jpg",
+      "descripcion": "Iglesia histórica, con una arquitectura única y gran valor cultural.",
+      "imagen": "/practica/img/atractivos/catedral_san_pedro.jpg",
       "ubicacion": {
-        "lat": 29.1928,
-        "lng": -108.1321
+        "lat": 29.19413,
+        "lng": -108.14209
       },
       "detalles": "El Templo de San Juan Bautista es el centro religioso más importante de Madera. Su construcción combina elementos arquitectónicos tradicionales con toques regionales. Durante las festividades del santo patrono, el templo se convierte en el epicentro de celebraciones culturales y religiosas."
     },
     {
       "id": 5,
-      "nombre": "Mirador El Divisadero",
+      "nombre": "40 Casas",
       "categoria": "natural",
-      "descripcion": "Punto panorámico con vistas espectaculares de la sierra y los valles circundantes.",
+      "descripcion": "",
       "imagen": "img/atractivos/mirador_divisadero.jpg",
       "ubicacion": {
-        "lat": 29.2033,
-        "lng": -108.1153
+        "lat": 29.55469,
+        "lng": -108.15195
       },
       "detalles": "El Mirador El Divisadero ofrece una de las vistas más impresionantes de la región. Desde aquí se pueden apreciar los extensos bosques de pino, los valles y montañas que conforman la Sierra Madre Occidental. Es particularmente hermoso durante los atardeceres."
     },
