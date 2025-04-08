@@ -1,11 +1,250 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Descubre Madera - Tesoro de Chihuahua</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS para animaciones al scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Madera, Chihuahua</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#atractivos">Atractivos</a></li>
+                <li><a href="#gastronomia">Gastronomía</a></li>
+                <li><a href="#alojamiento">Hospedaje</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Bienvenidos a Madera</h1>
+            <p>Descubre la belleza natural, historia y tradiciones de este encantador pueblo serrano de Chihuahua</p>
+            <a href="#atractivos" class="btn-primary">Explorar</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Sección de Atractivos Turísticos -->
+    <section id="atractivos" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Lugares Imprescindibles</h2>
+            <div class="filter-buttons" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="historico">Históricos</button>
+                <button class="filter-btn" data-filter="natural">Naturales</button>
+                <button class="filter-btn" data-filter="cultural">Culturales</button>
+            </div>
+            
+            <div class="attractions-grid">
+                <div class="attraction-card" data-category="natural" data-aos="fade-up">
+                    <img src="https://via.placeholder.com/400x300" alt="Cascada de Huapoca">
+                    <div class="card-content">
+                        <h3>Cascada de Huapoca</h3>
+                        <p>Impresionante caída de agua rodeada de bosques de pino, ideal para los amantes de la naturaleza.</p>
+                        <button class="btn-secondary">Ver más</button>
+                        <i class="far fa-heart favorite-icon" id="fav-1" onclick="toggleFavorite(1)"></i>
+                    </div>
+                </div>
+                
+                <div class="attraction-card" data-category="historico" data-aos="fade-up">
+                    <img src="https://via.placeholder.com/400x300" alt="Cuevas de Huapoca">
+                    <div class="card-content">
+                        <h3>Cuevas de Huapoca</h3>
+                        <p>Sitio arqueológico con cuevas habitadas por antiguas culturas prehispánicas con pinturas rupestres.</p>
+                        <button class="btn-secondary">Ver más</button>
+                        <i class="far fa-heart favorite-icon" id="fav-2" onclick="toggleFavorite(2)"></i>
+                    </div>
+                </div>
+                
+                <div class="attraction-card" data-category="natural" data-aos="fade-up">
+                    <img src="https://via.placeholder.com/400x300" alt="Presa La Angostura">
+                    <div class="card-content">
+                        <h3>Presa La Angostura</h3>
+                        <p>Hermoso embalse rodeado de paisajes boscosos, perfecto para actividades acuáticas y pesca.</p>
+                        <button class="btn-secondary">Ver más</button>
+                        <i class="far fa-heart favorite-icon" id="fav-3" onclick="toggleFavorite(3)"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Gastronomía -->
+    <section id="gastronomia" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Sabores de Madera</h2>
+            <p class="section-subtitle" data-aos="fade-up">Disfruta de la auténtica gastronomía norteña con un toque serrano.</p>
+            
+            <div class="food-carousel" data-aos="fade-up">
+                <div class="food-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Carne asada">
+                    <h3>Carne Asada</h3>
+                    <p>Exquisitos cortes de carne de res a la parrilla, preparados al estilo chihuahuense.</p>
+                </div>
+                <div class="food-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Queso Menonita">
+                    <h3>Queso Menonita</h3>
+                    <p>Famoso queso producido en la región por las comunidades menonitas cercanas.</p>
+                </div>
+                <div class="food-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Pinole">
+                    <h3>Pinole</h3>
+                    <p>Bebida tradicional de la Sierra Tarahumara hecha de maíz tostado molido.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Información del Clima -->
+    <section class="weather-info">
+        <div class="container">
+            <h3>Clima actual en Madera</h3>
+            <div class="weather-display">
+                <img id="weather-icon" src="" alt="Clima">
+                <div class="weather-details">
+                    <span id="weather-temp">--°C</span>
+                    <span id="weather-desc">Cargando...</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Mapa -->
+    <section id="mapa" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Explora Madera</h2>
+            <div id="map" class="city-map" data-aos="fade-up"></div>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section class="testimonials section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experiencias de Visitantes</h2>
+            
+            <div class="swiper testimonial-swiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"Visitar las Cuevas de Huapoca fue una experiencia inolvidable. La historia y belleza natural de Madera me dejaron impresionado."</p>
+                            <div class="author">- Carlos Rodríguez, Ciudad Juárez</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"Los paisajes boscosos y el aire fresco de la sierra hacen de Madera un destino perfecto para escapar del calor y conectar con la naturaleza."</p>
+                            <div class="author">- Laura Méndez, Chihuahua</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Hospedaje -->
+    <section id="alojamiento" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Dónde Hospedarse</h2>
+            <p class="section-subtitle" data-aos="fade-up">Encuentra el alojamiento perfecto para tu estancia en Madera</p>
+            
+            <div class="lodging-options" data-aos="fade-up">
+                <div class="lodging-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Hotel Sierra">
+                    <h3>Hotel Sierra Madera</h3>
+                    <p>Cómodo hotel en el centro del pueblo con todas las amenidades necesarias.</p>
+                    <div class="lodging-features">
+                        <span><i class="fas fa-wifi"></i> WiFi</span>
+                        <span><i class="fas fa-parking"></i> Estacionamiento</span>
+                        <span><i class="fas fa-utensils"></i> Restaurante</span>
+                    </div>
+                </div>
+                
+                <div class="lodging-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Cabañas del Bosque">
+                    <h3>Cabañas del Bosque</h3>
+                    <p>Acogedoras cabañas rodeadas de pinos, ideales para una experiencia en contacto con la naturaleza.</p>
+                    <div class="lodging-features">
+                        <span><i class="fas fa-campground"></i> Fogata</span>
+                        <span><i class="fas fa-hiking"></i> Senderos</span>
+                        <span><i class="fas fa-mountain"></i> Vistas panorámicas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Descubre Madera</h3>
+                    <p>Tu guía completa para explorar este hermoso municipio en las montañas de Chihuahua.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#atractivos">Atractivos</a></li>
+                        <li><a href="#gastronomia">Gastronomía</a></li>
+                        <li><a href="#alojamiento">Hospedaje</a></li>
+                        <li><a href="#mapa">Mapa</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-envelope"></i> info@descubremadera.com</p>
+                    <p><i class="fas fa-phone"></i> +52 635 123 4567</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Descubre Madera, Chihuahua. Todos los derechos reservados.</p>
+                <button id="theme-toggle">Cambiar tema <i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Inicializar AOS (Animate On Scroll)
+        AOS.init({
+            duration: 800,
+            easing: 'ease',
+            once: true
+        });
+    </script>
 </body>
 </html>
