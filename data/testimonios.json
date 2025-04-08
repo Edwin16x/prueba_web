@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "texto": "Visitar las Cuevas de Huapoca fue una experiencia inolvidable. La historia y belleza natural de Madera me dejaron impresionado.",
+      "autor": "Carlos Rodríguez",
+      "origen": "Ciudad Juárez",
+      "calificacion": 5,
+      "fecha": "2025-01-15"
+    },
+    {
+      "id": 2,
+      "texto": "Los paisajes boscosos y el aire fresco de la sierra hacen de Madera un destino perfecto para escapar del calor y conectar con la naturaleza.",
+      "autor": "Laura Méndez",
+      "origen": "Chihuahua",
+      "calificacion": 5,
+      "fecha": "2025-02-20"
+    },
+    {
+      "id": 3,
+      "texto": "El queso menonita que probamos en Madera es el mejor que he probado en mi vida. Vale la pena el viaje solo por la experiencia gastronómica.",
+      "autor": "Javier Torres",
+      "origen": "Monterrey",
+      "calificacion": 4,
+      "fecha": "2025-03-05"
+    },
+    {
+      "id": 4,
+      "texto": "Me hospedé en las Cabañas del Bosque y fue mágico despertar con el sonido de los pájaros y rodeada de pinos. Madera es un lugar para desconectar y renovarse.",
+      "autor": "Sofía García",
+      "origen": "Ciudad de México",
+      "calificacion": 5,
+      "fecha": "2024-12-10"
+    },
+    {
+      "id": 5,
+      "texto": "La amabilidad de la gente de Madera hace que te sientas como en casa. Nos dieron recomendaciones excelentes sobre lugares poco conocidos que resultaron ser maravillosos.",
+      "autor": "Miguel Ángel Pérez",
+      "origen": "Guadalajara",
+      "calificacion": 5,
+      "fecha": "2025-01-30"
+    },
+    {
+      "id": 6,
+      "texto": "La pesca en la Presa La Angostura fue una experiencia increíble. El paisaje es espectacular y logramos pescar varias truchas. Definitivamente regresaremos.",
+      "autor": "Roberto Sánchez",
+      "origen": "Hermosillo",
+      "calificacion": 4,
+      "fecha": "2024-11-15"
+    }
+  ]

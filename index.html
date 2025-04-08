@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descubre Madera - Tesoro de Chihuahua</title>
-    <link rel="stylesheet" href="/practica/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Font Awesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- AOS para animaciones al scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Swiper para carruseles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <!-- Leaflet para mapas -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
     <!-- Barra de navegación -->
@@ -52,36 +56,10 @@
                 <button class="filter-btn" data-filter="cultural">Culturales</button>
             </div>
             
+            <!-- Los atractivos se cargarán desde el JSON -->
             <div class="attractions-grid">
-                <div class="attraction-card" data-category="natural" data-aos="fade-up">
-                    <img src="https://via.placeholder.com/400x300" alt="Cascada de Huapoca">
-                    <div class="card-content">
-                        <h3>Cascada de Huapoca</h3>
-                        <p>Impresionante caída de agua rodeada de bosques de pino, ideal para los amantes de la naturaleza.</p>
-                        <button class="btn-secondary">Ver más</button>
-                        <i class="far fa-heart favorite-icon" id="fav-1" onclick="toggleFavorite(1)"></i>
-                    </div>
-                </div>
-                
-                <div class="attraction-card" data-category="historico" data-aos="fade-up">
-                    <img src="https://via.placeholder.com/400x300" alt="Cuevas de Huapoca">
-                    <div class="card-content">
-                        <h3>Cuevas de Huapoca</h3>
-                        <p>Sitio arqueológico con cuevas habitadas por antiguas culturas prehispánicas con pinturas rupestres.</p>
-                        <button class="btn-secondary">Ver más</button>
-                        <i class="far fa-heart favorite-icon" id="fav-2" onclick="toggleFavorite(2)"></i>
-                    </div>
-                </div>
-                
-                <div class="attraction-card" data-category="natural" data-aos="fade-up">
-                    <img src="https://via.placeholder.com/400x300" alt="Presa La Angostura">
-                    <div class="card-content">
-                        <h3>Presa La Angostura</h3>
-                        <p>Hermoso embalse rodeado de paisajes boscosos, perfecto para actividades acuáticas y pesca.</p>
-                        <button class="btn-secondary">Ver más</button>
-                        <i class="far fa-heart favorite-icon" id="fav-3" onclick="toggleFavorite(3)"></i>
-                    </div>
-                </div>
+                <!-- Contenido generado por JavaScript -->
+                <div class="loading">Cargando lugares de interés...</div>
             </div>
         </div>
     </section>
@@ -92,22 +70,10 @@
             <h2 class="section-title" data-aos="fade-up">Sabores de Madera</h2>
             <p class="section-subtitle" data-aos="fade-up">Disfruta de la auténtica gastronomía norteña con un toque serrano.</p>
             
+            <!-- La gastronomía se cargará desde el JSON -->
             <div class="food-carousel" data-aos="fade-up">
-                <div class="food-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Carne asada">
-                    <h3>Carne Asada</h3>
-                    <p>Exquisitos cortes de carne de res a la parrilla, preparados al estilo chihuahuense.</p>
-                </div>
-                <div class="food-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Queso Menonita">
-                    <h3>Queso Menonita</h3>
-                    <p>Famoso queso producido en la región por las comunidades menonitas cercanas.</p>
-                </div>
-                <div class="food-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Pinole">
-                    <h3>Pinole</h3>
-                    <p>Bebida tradicional de la Sierra Tarahumara hecha de maíz tostado molido.</p>
-                </div>
+                <!-- Contenido generado por JavaScript -->
+                <div class="loading">Cargando delicias gastronómicas...</div>
             </div>
         </div>
     </section>
@@ -141,18 +107,8 @@
             
             <div class="swiper testimonial-swiper" data-aos="fade-up">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"Visitar las Cuevas de Huapoca fue una experiencia inolvidable. La historia y belleza natural de Madera me dejaron impresionado."</p>
-                            <div class="author">- Carlos Rodríguez, Ciudad Juárez</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"Los paisajes boscosos y el aire fresco de la sierra hacen de Madera un destino perfecto para escapar del calor y conectar con la naturaleza."</p>
-                            <div class="author">- Laura Méndez, Chihuahua</div>
-                        </div>
-                    </div>
+                    <!-- Testimonios cargados desde JSON -->
+                    <div class="loading">Cargando experiencias...</div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>
@@ -167,28 +123,10 @@
             <h2 class="section-title" data-aos="fade-up">Dónde Hospedarse</h2>
             <p class="section-subtitle" data-aos="fade-up">Encuentra el alojamiento perfecto para tu estancia en Madera</p>
             
+            <!-- Alojamientos cargados desde JSON -->
             <div class="lodging-options" data-aos="fade-up">
-                <div class="lodging-card">
-                    <img src="https://via.placeholder.com/300x200" alt="Hotel Sierra">
-                    <h3>Hotel Sierra Madera</h3>
-                    <p>Cómodo hotel en el centro del pueblo con todas las amenidades necesarias.</p>
-                    <div class="lodging-features">
-                        <span><i class="fas fa-wifi"></i> WiFi</span>
-                        <span><i class="fas fa-parking"></i> Estacionamiento</span>
-                        <span><i class="fas fa-utensils"></i> Restaurante</span>
-                    </div>
-                </div>
-                
-                <div class="lodging-card">
-                    <img src="https://via.placeholder.com/300x200" alt="Cabañas del Bosque">
-                    <h3>Cabañas del Bosque</h3>
-                    <p>Acogedoras cabañas rodeadas de pinos, ideales para una experiencia en contacto con la naturaleza.</p>
-                    <div class="lodging-features">
-                        <span><i class="fas fa-campground"></i> Fogata</span>
-                        <span><i class="fas fa-hiking"></i> Senderos</span>
-                        <span><i class="fas fa-mountain"></i> Vistas panorámicas</span>
-                    </div>
-                </div>
+                <!-- Contenido generado por JavaScript -->
+                <div class="loading">Cargando opciones de hospedaje...</div>
             </div>
         </div>
     </section>

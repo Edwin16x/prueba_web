@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "nombre": "Hotel Sierra Madera",
+      "descripcion": "Cómodo hotel en el centro del pueblo con todas las amenidades necesarias.",
+      "imagen": "img/alojamiento/hotel_sierra.jpg",
+      "ubicacion": {
+        "lat": 29.1925,
+        "lng": -108.1311
+      },
+      "precio": "Desde $800 MXN por noche",
+      "contacto": "+52 635 123 4567",
+      "servicios": ["WiFi", "Estacionamiento", "Restaurante", "TV por cable", "Agua caliente"],
+      "calificacion": 4.5
+    },
+    {
+      "id": 2,
+      "nombre": "Cabañas del Bosque",
+      "descripcion": "Acogedoras cabañas rodeadas de pinos, ideales para una experiencia en contacto con la naturaleza.",
+      "imagen": "img/alojamiento/cabanas_bosque.jpg",
+      "ubicacion": {
+        "lat": 29.2042,
+        "lng": -108.1456
+      },
+      "precio": "Desde $1,200 MXN por noche",
+      "contacto": "+52 635 987 6543",
+      "servicios": ["Fogata", "Senderos", "Vistas panorámicas", "Cocina equipada", "Agua caliente"],
+      "calificacion": 4.8
+    },
+    {
+      "id": 3,
+      "nombre": "Posada Don Manuel",
+      "descripcion": "Hospedaje familiar con ambiente cálido y atención personalizada en el corazón de Madera.",
+      "imagen": "img/alojamiento/posada_manuel.jpg",
+      "ubicacion": {
+        "lat": 29.1903,
+        "lng": -108.1327
+      },
+      "precio": "Desde $600 MXN por noche",
+      "contacto": "+52 635 456 7890",
+      "servicios": ["Desayuno incluido", "WiFi", "Estacionamiento", "Terraza", "Información turística"],
+      "calificacion": 4.3
+    },
+    {
+      "id": 4,
+      "nombre": "Hotel La Cascada",
+      "descripcion": "Hotel moderno con vistas a las montañas y servicios de primera calidad.",
+      "imagen": "img/alojamiento/hotel_cascada.jpg",
+      "ubicacion": {
+        "lat": 29.1931,
+        "lng": -108.1298
+      },
+      "precio": "Desde $1,000 MXN por noche",
+      "contacto": "+52 635 234 5678",
+      "servicios": ["Alberca", "Restaurante", "Bar", "WiFi", "Gimnasio", "Estacionamiento"],
+      "calificacion": 4.7
+    }
+  ]

@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "nombre": "Carne Asada",
+      "descripcion": "Exquisitos cortes de carne de res a la parrilla, preparados al estilo chihuahuense.",
+      "imagen": "img/gastronomia/carne_asada.jpg",
+      "restaurantes": ["El Mesón del Norte", "Parrillada La Sierra", "Restaurante Don Pancho"],
+      "ingredientes": ["Carne de res", "Sal gruesa", "Chimichurri norteño", "Cebollas cambray", "Chiles toreados"]
+    },
+    {
+      "id": 2,
+      "nombre": "Queso Menonita",
+      "descripcion": "Famoso queso producido en la región por las comunidades menonitas cercanas.",
+      "imagen": "img/gastronomia/queso_menonita.jpg",
+      "restaurantes": ["Mercado Municipal", "Tienda La Sierra", "Productos Regionales Madera"],
+      "ingredientes": ["Leche de vaca", "Cuajo natural", "Sal"]
+    },
+    {
+      "id": 3,
+      "nombre": "Pinole",
+      "descripcion": "Bebida tradicional de la Sierra Tarahumara hecha de maíz tostado molido.",
+      "imagen": "img/gastronomia/pinole.jpg",
+      "restaurantes": ["Café de la Sierra", "Comida Tradicional María", "Mercado de Artesanías"],
+      "ingredientes": ["Maíz criollo tostado", "Canela", "Piloncillo", "Agua caliente"]
+    },
+    {
+      "id": 4,
+      "nombre": "Machaca con Huevo",
+      "descripcion": "Plato tradicional norteño hecho con carne seca deshebrada y huevos revueltos.",
+      "imagen": "img/gastronomia/machaca_huevo.jpg",
+      "restaurantes": ["Fondita Doña Carmen", "Desayunos El Forestal", "Restaurante El Serrano"],
+      "ingredientes": ["Carne seca de res", "Huevos", "Chile verde", "Cebolla", "Tomate"]
+    },
+    {
+      "id": 5,
+      "nombre": "Gorditas de Maíz",
+      "descripcion": "Tradicionales gorditas rellenas de frijoles, queso, chicharrón o carne deshebrada.",
+      "imagen": "img/gastronomia/gorditas.jpg",
+      "restaurantes": ["Gorditas Doña Mary", "Mercado Municipal", "Antojitos La Plaza"],
+      "ingredientes": ["Masa de maíz", "Frijoles refritos", "Queso menonita", "Carne deshebrada", "Salsa roja"]
+    }
+  ]

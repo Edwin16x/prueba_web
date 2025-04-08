@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "nombre": "Cascada de Huapoca",
+      "categoria": "natural",
+      "descripcion": "Impresionante caída de agua rodeada de bosques de pino, ideal para los amantes de la naturaleza.",
+      "imagen": "img/atractivos/cascada_huapoca.jpg",
+      "ubicacion": {
+        "lat": 29.2096,
+        "lng": -108.1369
+      },
+      "detalles": "La cascada de Huapoca se encuentra a aproximadamente 20 km del centro de Madera. Es un lugar perfecto para disfrutar del contacto con la naturaleza, tomar fotografías y respirar aire puro. Durante la época de lluvias, la cascada muestra todo su esplendor."
+    },
+    {
+      "id": 2,
+      "nombre": "Cuevas de Huapoca",
+      "categoria": "historico",
+      "descripcion": "Sitio arqueológico con cuevas habitadas por antiguas culturas prehispánicas con pinturas rupestres.",
+      "imagen": "img/atractivos/cuevas_huapoca.jpg",
+      "ubicacion": {
+        "lat": 29.2122,
+        "lng": -108.1321
+      },
+      "detalles": "Las Cuevas de Huapoca son uno de los sitios arqueológicos más importantes de la región. Aquí se pueden observar fascinantes pinturas rupestres realizadas por antiguos habitantes de la zona. Se recomienda visitar con un guía local para apreciar mejor su valor histórico."
+    },
+    {
+      "id": 3,
+      "nombre": "Presa La Angostura",
+      "categoria": "natural",
+      "descripcion": "Hermoso embalse rodeado de paisajes boscosos, perfecto para actividades acuáticas y pesca.",
+      "imagen": "img/atractivos/presa_angostura.jpg",
+      "ubicacion": {
+        "lat": 29.1897,
+        "lng": -108.1462
+      },
+      "detalles": "La Presa La Angostura es uno de los principales recursos hídricos de la región. Sus aguas cristalinas son ideales para la pesca deportiva de trucha y lobina. También se puede disfrutar de paseos en bote y camping en sus orillas, rodeados de espectaculares vistas de los bosques de pino-encino."
+    },
+    {
+      "id": 4,
+      "nombre": "Templo de San Juan Bautista",
+      "categoria": "cultural",
+      "descripcion": "Iglesia histórica que data del siglo XIX, con una arquitectura única y gran valor cultural.",
+      "imagen": "img/atractivos/templo_san_juan.jpg",
+      "ubicacion": {
+        "lat": 29.1928,
+        "lng": -108.1321
+      },
+      "detalles": "El Templo de San Juan Bautista es el centro religioso más importante de Madera. Su construcción combina elementos arquitectónicos tradicionales con toques regionales. Durante las festividades del santo patrono, el templo se convierte en el epicentro de celebraciones culturales y religiosas."
+    },
+    {
+      "id": 5,
+      "nombre": "Mirador El Divisadero",
+      "categoria": "natural",
+      "descripcion": "Punto panorámico con vistas espectaculares de la sierra y los valles circundantes.",
+      "imagen": "img/atractivos/mirador_divisadero.jpg",
+      "ubicacion": {
+        "lat": 29.2033,
+        "lng": -108.1153
+      },
+      "detalles": "El Mirador El Divisadero ofrece una de las vistas más impresionantes de la región. Desde aquí se pueden apreciar los extensos bosques de pino, los valles y montañas que conforman la Sierra Madre Occidental. Es particularmente hermoso durante los atardeceres."
+    },
+    {
+      "id": 6,
+      "nombre": "Museo Comunitario de Madera",
+      "categoria": "cultural",
+      "descripcion": "Museo que exhibe la historia, tradiciones y artesanías locales de la región.",
+      "imagen": "img/atractivos/museo_comunitario.jpg",
+      "ubicacion": {
+        "lat": 29.1912,
+        "lng": -108.1298
+      },
+      "detalles": "El Museo Comunitario de Madera alberga una importante colección de fotografías históricas, artefactos arqueológicos y muestras de la cultura local. Es un excelente lugar para comprender mejor la historia y evolución del municipio a través de los años."
+    }
+  ]
