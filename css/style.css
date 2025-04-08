@@ -1,10 +1,15 @@
 /* Estilos generales */
 :root {
-    --primary-color: #1a5276; /* Azul oscuro, evocando los paisajes serranos */
-    --secondary-color: #d35400; /* Naranja, representando los atardeceres */
-    --accent-color: #2ecc71; /* Verde, representando los bosques */
+    --primary-color: #2c5e4e; /* Verde bosque profundo */
+    --secondary-color: #8b5a2b; /* Marrón madera/corteza */
+    --accent-color: #4caf50; /* Verde brillante para acentos */
+    --cool-blue: #34495e; /* Azul frío evocando climas fríos */
+    --pine-green: #1b4d3e; /* Verde pino oscuro */
+    --forest-light: #7cb342; /* Verde claro de follaje */
+    --wood-brown: #795548; /* Marrón madera natural */
+    --snow-white: #f5f5f5; /* Blanco nieve */
     --light-color: #f8f9fa;
-    --dark-color: #343a40;
+    --dark-color: #1e3a2b; /* Verde muy oscuro para fondos oscuros */
     --gray-color: #6c757d;
     --font-primary: 'Montserrat', sans-serif;
     --font-secondary: 'Open Sans', sans-serif;
