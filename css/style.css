@@ -191,7 +191,7 @@ a:hover {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background-image: url('https://via.placeholder.com/1920x1080');
+    background-image: url('/practica/img/backgrounds/glorieta.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
