@@ -3,7 +3,7 @@
       "id": 1,
       "nombre": "Hotel Sierra Madera",
       "descripcion": "Cómodo hotel en el centro del pueblo con todas las amenidades necesarias.",
-      "imagen": "img/alojamiento/hotel_sierra.jpg",
+      "imagen": "img/alojamiento/cabaña1.jpg",
       "ubicacion": {
         "lat": 29.1925,
         "lng": -108.1311
@@ -17,7 +17,7 @@
       "id": 2,
       "nombre": "Cabañas del Bosque",
       "descripcion": "Acogedoras cabañas rodeadas de pinos, ideales para una experiencia en contacto con la naturaleza.",
-      "imagen": "img/alojamiento/cabanas_bosque.jpg",
+      "imagen": "img/alojamiento/cabaña2.jpg",
       "ubicacion": {
         "lat": 29.2042,
         "lng": -108.1456
@@ -31,7 +31,7 @@
       "id": 3,
       "nombre": "Posada Don Manuel",
       "descripcion": "Hospedaje familiar con ambiente cálido y atención personalizada en el corazón de Madera.",
-      "imagen": "img/alojamiento/posada_manuel.jpg",
+      "imagen": "img/alojamiento/cabaña3.jpg",
       "ubicacion": {
         "lat": 29.1903,
         "lng": -108.1327
