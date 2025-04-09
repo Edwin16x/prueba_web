@@ -11,7 +11,7 @@
       "id": 3,
       "nombre": "Pinole",
       "descripcion": "Bebida tradicional de la Sierra Tarahumara hecha de maíz tostado molido.",
-      "imagen": "img/gastronomia/pinole.jpg",
+      "imagen": "img/gastronomia/pinole.webp",
       "restaurantes": ["Café de la Sierra", "Comida Tradicional María", "Mercado de Artesanías"],
       "ingredientes": ["Maíz criollo tostado", "Canela", "Piloncillo", "Agua caliente"]
     },
@@ -19,7 +19,7 @@
       "id": 4,
       "nombre": "Machaca con Huevo",
       "descripcion": "Plato tradicional norteño hecho con carne seca deshebrada y huevos revueltos.",
-      "imagen": "img/gastronomia/machaca_huevo.jpg",
+      "imagen": "img/gastronomia/machaca.webp",
       "restaurantes": ["Fondita Doña Carmen", "Desayunos El Forestal", "Restaurante El Serrano"],
       "ingredientes": ["Carne seca de res", "Huevos", "Chile verde", "Cebolla", "Tomate"]
     }

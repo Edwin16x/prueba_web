@@ -40,19 +40,5 @@
       "contacto": "+52 635 456 7890",
       "servicios": ["Desayuno incluido", "WiFi", "Estacionamiento", "Terraza", "Información turística"],
       "calificacion": 4.3
-    },
-    {
-      "id": 4,
-      "nombre": "Hotel La Cascada",
-      "descripcion": "Hotel moderno con vistas a las montañas y servicios de primera calidad.",
-      "imagen": "img/alojamiento/hotel_cascada.jpg",
-      "ubicacion": {
-        "lat": 29.1931,
-        "lng": -108.1298
-      },
-      "precio": "Desde $1,000 MXN por noche",
-      "contacto": "+52 635 234 5678",
-      "servicios": ["Alberca", "Restaurante", "Bar", "WiFi", "Gimnasio", "Estacionamiento"],
-      "calificacion": 4.7
     }
   ]
