@@ -81,12 +81,19 @@
     <!-- Información del Clima -->
     <section class="weather-info">
         <div class="container">
-            <h3>Clima actual en Madera</h3>
+            <h3>Clima en Madera</h3>
             <div class="weather-display">
-                <img id="weather-icon" src="" alt="Clima">
+                <div id="weather-icon" class="weather-icon-container"></div>
                 <div class="weather-details">
                     <span id="weather-temp">--°C</span>
                     <span id="weather-desc">Cargando...</span>
+                    <div class="weather-temp-range">
+                        <span id="weather-temp-max">Máx: --°C</span>
+                        <span id="weather-temp-min">Mín: --°C</span>
+                    </div>
+                    <span id="weather-feels"></span>
+                    <span id="weather-humidity"></span>
+                    <span id="weather-wind"></span>
                 </div>
             </div>
         </div>
@@ -177,6 +184,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/clima.js"></script>
     <script>
         // Inicializar AOS (Animate On Scroll)
         AOS.init({
