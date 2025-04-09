@@ -611,6 +611,112 @@ a:hover {
     color: var(--primary-color);
 }
 
+/* Estilos mejorados para el carrusel de testimonios */
+.testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+    margin: 20px 10px 40px;
+    position: relative;
+}
+
+.testimonial-content {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.quote-icon {
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    font-size: 2rem;
+    color: #e4e4e4;
+    opacity: 0.8;
+}
+
+.testimonial-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-rating {
+    color: #ffc107; /* Color dorado para las estrellas */
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.testimonial-author {
+    border-top: 1px solid #f0f0f0;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.testimonial-info h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.testimonial-info p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Estilos de paginación más sutiles */
+.testimonial-swiper .swiper-pagination {
+    bottom: 0px;
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: #4caf50; /* Color principal */
+    transform: scale(1.2);
+}
+
+/* Efecto hover sobre el testimonio */
+.swiper-slide-active .testimonial-card {
+    transform: translateY(-5px);
+}
+
+/* Animación de entrada para los testimonios */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.swiper-slide-active .testimonial-card {
+    animation: fadeInUp 0.5s ease forwards;
+}
+
 /* Sección de Hospedaje */
 .lodging-options {
     display: grid;

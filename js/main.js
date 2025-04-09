@@ -36,11 +36,11 @@ function inicializarUI() {
     renderizarAtractivos();
     renderizarGastronomia();
     renderizarAlojamientos();
-    renderizarTestimonios();
+    renderizarTestimonios(testimonios);
     inicializarMapa();
     inicializarFiltros();
     verificarFavoritos();
-    inicializarSwiper();
+    inicializarTestimonialSwiper();
 }
 
 // Renderizar los atractivos en la página
@@ -140,8 +140,8 @@ function renderizarAlojamientos() {
 }
 
 // Renderizar los testimonios en el carrusel
-function renderizarTestimonios() {
-    const contenedor = document.querySelector('.swiper-wrapper');
+function renderizarTestimonios(testimonios) {
+    const contenedor = document.querySelector('.testimonial-swiper .swiper-wrapper');
     if (!contenedor) return;
     
     contenedor.innerHTML = ''; // Limpiar contenedor
@@ -151,14 +151,45 @@ function renderizarTestimonios() {
         slide.className = 'swiper-slide';
         
         slide.innerHTML = `
-            <div class="testimonial">
-                <p>"${testimonio.texto}"</p>
-                <div class="author">- ${testimonio.autor}, ${testimonio.origen}</div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">${testimonio.comentario}</p>
+                    <div class="testimonial-rating">
+                        ${generarEstrellas(testimonio.calificacion)}
+                    </div>
+                </div>
+                <div class="testimonial-author">
+                    <div class="testimonial-info">
+                        <h4>${testimonio.nombre}</h4>
+                        <p>${testimonio.origen}</p>
+                    </div>
+                </div>
             </div>
         `;
         
         contenedor.appendChild(slide);
     });
+    
+    // Inicializar el carrusel una vez que se han cargado los testimonios
+    inicializarTestimonialSwiper();
+}
+
+// Función auxiliar para generar las estrellas de calificación
+function generarEstrellas(calificacion) {
+    let estrellas = '';
+    for (let i = 1; i <= 5; i++) {
+        if (i <= calificacion) {
+            estrellas += '<i class="fas fa-star"></i>'; // Estrella llena
+        } else if (i - 0.5 <= calificacion) {
+            estrellas += '<i class="fas fa-star-half-alt"></i>'; // Media estrella
+        } else {
+            estrellas += '<i class="far fa-star"></i>'; // Estrella vacía
+        }
+    }
+    return estrellas;
 }
 
 // Inicializar el mapa con los atractivos
@@ -310,25 +341,31 @@ function mostrarDetalleAtractivo(id) {
     */
 }
 
-// Inicializar el carrusel de testimonios con Swiper
-function inicializarSwiper() {
-    if (!document.querySelector('.testimonial-swiper')) return;
-    
-    new Swiper('.testimonial-swiper', {
+// Inicializar el carrusel de testimonios con autoplay
+function inicializarTestimonialSwiper() {
+    const testimonialSwiper = new Swiper('.testimonial-swiper', {
         slidesPerView: 1,
         spaceBetween: 30,
+        centeredSlides: true,
         loop: true,
+        effect: 'fade', // Efecto de desvanecimiento entre testimonios
+        fadeEffect: {
+            crossFade: true
+        },
         autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
+            delay: 5000, // Cambia de testimonio cada 5 segundos
+            disableOnInteraction: false, // Continúa incluso después de interacción del usuario
+            pauseOnMouseEnter: true // Pausa cuando el mouse está sobre el carrusel
         },
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
+            dynamicBullets: true
         },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+        grabCursor: true, // Cambia el cursor cuando se pasa por encima
+        speed: 800, // Velocidad de transición
+        keyboard: {
+            enabled: true // Permitir navegación con teclado
         }
     });
 }
