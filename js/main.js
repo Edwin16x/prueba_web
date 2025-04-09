@@ -353,7 +353,7 @@ function inicializarTestimonialSwiper() {
             crossFade: true
         },
         autoplay: {
-            delay: 1000, // Cambia de testimonio cada 5 segundos
+            delay: 1500, // Cambia de testimonio cada 5 segundos
             disableOnInteraction: false, // Continúa incluso después de interacción del usuario
             pauseOnMouseEnter: true // Pausa cuando el mouse está sobre el carrusel
         },
