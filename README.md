@@ -34,8 +34,6 @@ Si eres propietario de alguna imagen y deseas su retiro, por favor contáctanos.
   - Swiper.js (carruseles)
   - AOS (animaciones)
 - **APIs**: wttr.in (clima)
-<<<<<<< HEAD
 - **Iconos**: Font Awesome
-=======
-- **Iconos**: Font Awesome
->>>>>>> 7041247f5070c5324a44dc06a8b92ff1b5de1ac5
+
+[Ingresar](https://edwin16x.github.io/practica/)
