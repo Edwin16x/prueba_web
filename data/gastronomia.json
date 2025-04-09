@@ -30,13 +30,5 @@
       "imagen": "img/gastronomia/machaca_huevo.jpg",
       "restaurantes": ["Fondita Doña Carmen", "Desayunos El Forestal", "Restaurante El Serrano"],
       "ingredientes": ["Carne seca de res", "Huevos", "Chile verde", "Cebolla", "Tomate"]
-    },
-    {
-      "id": 5,
-      "nombre": "Gorditas de Maíz",
-      "descripcion": "Tradicionales gorditas rellenas de frijoles, queso, chicharrón o carne deshebrada.",
-      "imagen": "img/gastronomia/gorditas.jpg",
-      "restaurantes": ["Gorditas Doña Mary", "Mercado Municipal", "Antojitos La Plaza"],
-      "ingredientes": ["Masa de maíz", "Frijoles refritos", "Queso menonita", "Carne deshebrada", "Salsa roja"]
     }
   ]

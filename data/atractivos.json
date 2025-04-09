@@ -52,7 +52,7 @@
       "nombre": "40 Casas",
       "categoria": "natural",
       "descripcion": "",
-      "imagen": "img/atractivos/mirador_divisadero.jpg",
+      "imagen": "/practica/img/atractivos/40_casas.jpg",
       "ubicacion": {
         "lat": 29.55469,
         "lng": -108.15195
@@ -61,13 +61,13 @@
     },
     {
       "id": 6,
-      "nombre": "Museo Comunitario de Madera",
-      "categoria": "cultural",
-      "descripcion": "Museo que exhibe la historia, tradiciones y artesanías locales de la región.",
-      "imagen": "img/atractivos/museo_comunitario.jpg",
+      "nombre": "Mirador cerro de la Chinaca",
+      "categoria": "natural",
+      "descripcion": "",
+      "imagen": "/practica/img/atractivos/torre_chinaca.jpg",
       "ubicacion": {
-        "lat": 29.1912,
-        "lng": -108.1298
+        "lat": 29.07182,
+        "lng": -108.15528
       },
       "detalles": "El Museo Comunitario de Madera alberga una importante colección de fotografías históricas, artefactos arqueológicos y muestras de la cultura local. Es un excelente lugar para comprender mejor la historia y evolución del municipio a través de los años."
     }
