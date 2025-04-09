@@ -3,7 +3,7 @@
       "id": 1,
       "nombre": "Carne Asada",
       "descripcion": "Exquisitos cortes de carne de res a la parrilla, preparados al estilo chihuahuense.",
-      "imagen": "img/gastronomia/carne_asada.jpg",
+      "imagen": "../img/gastronomia/carne_asada.webp",
       "restaurantes": ["El Mesón del Norte", "Parrillada La Sierra", "Restaurante Don Pancho"],
       "ingredientes": ["Carne de res", "Sal gruesa", "Chimichurri norteño", "Cebollas cambray", "Chiles toreados"]
     },
