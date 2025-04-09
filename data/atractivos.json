@@ -4,7 +4,7 @@
       "nombre": "Presa Peñitas",
       "categoria": "natural",
       "descripcion": "",
-      "imagen": "../img/atractivos/presa_peñitas.jpg",
+      "imagen": "img/atractivos/presa_peñitas.jpg",
       "ubicacion": {
         "lat": 29.27189,
         "lng": -108.11775
@@ -16,7 +16,7 @@
       "nombre": "Cabañas la bolsa",
       "categoria": "natural",
       "descripcion": "",
-      "imagen": "../img/atractivos/cabañas_la_bolsa.jpg",
+      "imagen": "img/atractivos/cabañas_la_bolsa.jpg",
       "ubicacion": {
         "lat": 29.24172,
         "lng": -108.13013
@@ -28,7 +28,7 @@
       "nombre": "Lago de los Cisnes",
       "categoria": "natural",
       "descripcion": "",
-      "imagen": "../img/atractivos/lago_de_los_cisnes.jpg",
+      "imagen": "img/atractivos/lago_de_los_cisnes.jpg",
       "ubicacion": {
         "lat": 29.21021,
         "lng": -108.13879
@@ -40,7 +40,7 @@
       "nombre": "Catedral de San Pedro",
       "categoria": "cultural",
       "descripcion": "Iglesia histórica, con una arquitectura única y gran valor cultural.",
-      "imagen": "../img/atractivos/catedral_san_pedro.jpg",
+      "imagen": "img/atractivos/catedral_san_pedro.jpg",
       "ubicacion": {
         "lat": 29.19413,
         "lng": -108.14209
@@ -52,7 +52,7 @@
       "nombre": "40 Casas",
       "categoria": "natural",
       "descripcion": "",
-      "imagen": "../img/atractivos/40_casas.jpg",
+      "imagen": "img/atractivos/40_casas.jpg",
       "ubicacion": {
         "lat": 29.55469,
         "lng": -108.15195
@@ -64,7 +64,7 @@
       "nombre": "Mirador cerro de la Chinaca",
       "categoria": "natural",
       "descripcion": "",
-      "imagen": "../img/atractivos/torre_chinaca.jpg",
+      "imagen": "img/atractivos/torre_chinaca.jpg",
       "ubicacion": {
         "lat": 29.07182,
         "lng": -108.15528
