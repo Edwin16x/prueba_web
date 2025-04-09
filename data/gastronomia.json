@@ -8,14 +8,6 @@
       "ingredientes": ["Carne de res", "Sal gruesa", "Chimichurri norteño", "Cebollas cambray", "Chiles toreados"]
     },
     {
-      "id": 2,
-      "nombre": "Queso Menonita",
-      "descripcion": "Famoso queso producido en la región por las comunidades menonitas cercanas.",
-      "imagen": "img/gastronomia/queso_menonita.jpg",
-      "restaurantes": ["Mercado Municipal", "Tienda La Sierra", "Productos Regionales Madera"],
-      "ingredientes": ["Leche de vaca", "Cuajo natural", "Sal"]
-    },
-    {
       "id": 3,
       "nombre": "Pinole",
       "descripcion": "Bebida tradicional de la Sierra Tarahumara hecha de maíz tostado molido.",
