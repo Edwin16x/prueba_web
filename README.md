@@ -16,7 +16,7 @@ Proyecto de práctica implementando un sitio web turístico para la ciudad de Ma
 - No está afiliado a organizaciones oficiales
 
 ## 🖼️ Créditos de Imágenes
-Fotografías utilizadas con permiso de [Madera Drone](URL_FACEBOOK) (Facebook).  
+Fotografías utilizadas con permiso de [Madera Drone](https://www.facebook.com/MaderaDrone) (Facebook).  
 Si eres propietario de alguna imagen y deseas su retiro, por favor contáctanos.
 
 ## ✨ Características
@@ -35,11 +35,6 @@ Si eres propietario de alguna imagen y deseas su retiro, por favor contáctanos.
   - AOS (animaciones)
 - **APIs**: wttr.in (clima)
 - **Iconos**: Font Awesome
-
-## 🚀 Cómo Ejecutar
-1. Clona el repositorio
-2. Abre `index.html` en tu navegador
-3. No se requieren dependencias adicionales
 
 ```bash
 git clone https://github.com/tu-usuario/descubre-madera.git
