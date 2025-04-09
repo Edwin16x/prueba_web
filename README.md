@@ -35,6 +35,3 @@ Si eres propietario de alguna imagen y deseas su retiro, por favor contáctanos.
   - AOS (animaciones)
 - **APIs**: wttr.in (clima)
 - **Iconos**: Font Awesome
-
-```bash
-git clone https://github.com/tu-usuario/descubre-madera.git
