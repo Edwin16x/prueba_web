@@ -57,12 +57,16 @@ function renderizarAtractivos() {
         card.setAttribute('data-aos', 'fade-up');
         
         card.innerHTML = `
-            <img src="${atractivo.imagen}" alt="${atractivo.nombre}">
+            <div class="card-image">
+                <img src="${atractivo.imagen}" alt="${atractivo.nombre}">
+                <div class="favorite-btn" onclick="toggleFavorite(${atractivo.id})">
+                    <i class="far fa-heart" id="fav-${atractivo.id}"></i>
+                </div>
+            </div>
             <div class="card-content">
                 <h3>${atractivo.nombre}</h3>
                 <p>${atractivo.descripcion}</p>
                 <button class="btn-secondary" onclick="mostrarDetalleAtractivo(${atractivo.id})">Ver más</button>
-                <i class="far fa-heart favorite-icon" id="fav-${atractivo.id}" onclick="toggleFavorite(${atractivo.id})"></i>
             </div>
         `;
         
@@ -254,6 +258,9 @@ function toggleFavorite(id) {
     
     if (!iconoFav) return;
     
+    // Detener la propagación del evento si es necesario
+    event.stopPropagation();
+    
     if (favoritos.includes(id)) {
         // Quitar de favoritos
         favoritos = favoritos.filter(favId => favId !== id);
@@ -269,6 +276,13 @@ function toggleFavorite(id) {
     }
     
     localStorage.setItem('favoritos', JSON.stringify(favoritos));
+    
+    // Añadir efecto visual
+    const btnFav = iconoFav.parentElement;
+    btnFav.classList.add('pulse');
+    setTimeout(() => {
+        btnFav.classList.remove('pulse');
+    }, 300);
 }
 
 // Mostrar detalle completo de un atractivo
