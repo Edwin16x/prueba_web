@@ -147,7 +147,8 @@ a:hover {
 
 .logo h1 {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 900; /* Texto extra negrita */
+    letter-spacing: 1px; /* Opcional: espaciado entre letras para mayor impacto */
     color: var(--primary-color);
     margin: 0;
 }
